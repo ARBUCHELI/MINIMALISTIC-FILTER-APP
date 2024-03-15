@@ -53,7 +53,7 @@ function setup() {
     .style('padding', '10px 20px'); // Add padding
   createButton('INVERT')
     .mousePressed(() => applyFilter(img2, INVERT))
-    .position(buttonX + (buttonWidth + buttonSpacing) * 1.5, buttonMarginTop)
+    .position(buttonX + (buttonWidth + buttonSpacing) * 1.2, buttonMarginTop)
     .style('background-color', '#563f46') // Set background color
     .style('color', 'white') // Set text color
     .style('font-family', 'Courier') // Set font family
@@ -61,7 +61,7 @@ function setup() {
     .style('padding', '10px 20px'); // Add padding
   createButton('POSTERIZE')
     .mousePressed(() => applyFilter(img3, POSTERIZE, 4))
-    .position(buttonX + (buttonWidth + buttonSpacing) * 3, buttonMarginTop)
+    .position(buttonX + (buttonWidth + buttonSpacing) * 2.6, buttonMarginTop)
     .style('background-color', '#563f46') // Set background color
     .style('color', 'white') // Set text color
     .style('font-family', 'Courier') // Set font family
@@ -69,7 +69,7 @@ function setup() {
     .style('padding', '10px 20px'); // Add padding
   createButton('THRESHOLD')
     .mousePressed(() => applyFilter(img4, THRESHOLD))
-    .position(buttonX + (buttonWidth + buttonSpacing) * 4.3, buttonMarginTop)
+    .position(buttonX + (buttonWidth + buttonSpacing) * 4.16, buttonMarginTop)
     .style('background-color', '#563f46') // Set background color
     .style('color', 'white') // Set text color
     .style('font-family', 'Courier') // Set font family
